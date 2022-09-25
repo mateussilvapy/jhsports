@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Monoton&display=swap');
+
+header {
+    text-align: center;
+    height: 10rem;
+    background-color: white;
+    padding-top: 40px;
+}
+
+div.foto {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.foto img {
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    width: 13rem;
+    height: 18rem;
+    padding: 10px 10px 10px 10px;
+}
+
+div.entrega {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+div.linha{
+    border: 1px solid rgb(68, 68, 68);
+    margin: 0rem 0 4rem;
+    margin: 0%;
+}
+
+div.entre {
+    margin: auto;
+}
+
+p {
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+p.fre {
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
+p.dir {
+    padding-left: 50px;
+    font-weight: 900;
+}
+
+p.esq {
+    font-weight: 900;
+}
+
+p.detalhes {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-weight: 900;
+}
+
+p.preco {
+    display: block;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    font-weight: 900;
+}
+
+p.centro {
+    text-align: center;
+}
+
+p.fot {
+    display: block;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+p.img {
+    display: inline;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+p.loc {
+    font-weight: 900;
+    padding-left: 25px;
+}
+
+p.frete {
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: rgb(184, 182, 65);
+    border-radius: 10px 10px 10px 10px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+h3.adquirir {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    background-color: rgb(184, 182, 65);
+    border-radius: 10px 10px 10px 10px;
+    color: white; 
+    margin-bottom: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.link {
+    color: white;
+}
+
+section {
+    background-color: white;
+}
+
+section.seg {
+    background-color: black;
+    color: white;
+    padding-top: 35px;
+}
+
+section.ter {
+    background-color: white;
+    color: black;
+    padding-bottom: 30px;
+}
+
+h2.itens {
+    padding-bottom: 10px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+h2.slogan {
+   margin-top: 15px;
+   background-color: black;
+   color: white;
+   height: 50px;
+   padding-top: 10px;
+}
+
+body {
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: rgb(184, 182, 65);
+}
+
+footer img{
+    width: 3rem;
+    margin-left: 20px;
+}
+
+img {
+    width: 3rem;
+    margin: auto;
+}
+
+footer {
+    padding-top: 30px;
+    background-color: rgb(187, 187, 187);
+}
